@@ -1,7 +1,7 @@
 import { Canvas } from '@react-three/fiber';
 import Experience from './components/Experience';
-import './index.css'
 import { OrbitControls } from '@react-three/drei';
+import './index.css'
 
 function App() {
 
