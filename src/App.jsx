@@ -1,6 +1,6 @@
 import { Canvas } from '@react-three/fiber';
 import Experience from './components/Experience';
-import { OrbitControls } from '@react-three/drei';
+import { Environment, OrbitControls } from '@react-three/drei';
 import './index.css'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
         <Canvas>
           <Experience />
           <OrbitControls />
+          <Environment preset="city" environmentIntensity={1.8}/>
         </Canvas>
       </div>
   )
